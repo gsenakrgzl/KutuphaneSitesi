@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.Sena Karagüzel</title>
+	<link href="final.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://codepen.io/housamz/pen/rNLdGNQ.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://codepen.io/john_doe7/pen/XWdmzJg.js"></script>
+</head>
+
+
+</head>
+
+<body>
+	<!-- header start -->
+	<header class="header">
+		<div class="container">
+			<div class="row v-center">
+				<div class="header-item item-left">
+					<div class="logo">
+						<img src="gsklogo.png" alt="Logo Açıklaması">
+						
+					</div>
+				</div>
+		
+
+				<!-- menu start here -->
+				<div class="header-item item-center">
+					<div class="menu-overlay"></div>
+					<nav class="menu">
+						<div class="mobile-menu-head">
+							<div class="go-back"><i class="fa fa-angle-left"></i></div>
+							<div class="current-menu-title"></div>
+							<div class="mobile-menu-close">&times;</div>
+						</div>
+						<ul class="menu-main">
+							<li>
+								<a href="#">Anasayfa</a>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Bölümler <i class="fa fa-angle-down"></i></a>
+								<div class="sub-menu mega-menu mega-menu-column-4">
+									<div class="list-item text-center">
+										<a href="#">
+											<img src="çsalonu.jpeg"
+												alt="csalonu" style="" />
+											<h4 class="titlee">Çalışma Salonları</h4>
+										</a>
+									</div>
+									<div class="list-item text-center">
+										<a href="#">
+											<img src="ksalonu.jpg"
+												alt="Electronics" />
+											<h4 class="titlee">Konferans Salonu</h4>
+										</a>
+									</div>
+									<div class="list-item text-center">
+										<a href="#">
+											<img src="araştırmamerkezi.jpg"
+												alt="Mobiles" />
+											<h4 class="titlee">Araştırma Salonu</h4>
+										</a>
+									</div>
+									<div class="list-item text-center">
+										<a href="#">
+											<img src="eğitimmerkezi.jpg"
+												alt="Appliances" width="50px" height="50px" />
+											<h4 class="titlee">Eğitim Merkezi</h4>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Kategoriler <i class="fa fa-angle-down"></i></a>
+								<div class="sub-menu mega-menu mega-menu-column-4">
+									<div class="list-item">
+										<h4 class="titlee">EDEBİYAT</h4>
+										<ul>
+											<li><a href="#">&#128214;Türk Edebiyatı</a></li>
+											<li><a href="#">&#128214;Rus Edebiyatı</a></li>
+											<li><a href="#">&#128214;İngiliz Edebiyatı</a></li>
+											<li><a href="#">&#128214;Fransız Edebiyatı</a></li>
+											<li><a href="#">&#128214;Alman Edebiyatı</a></li>
+										</ul>
+										<h4 class="titlee">DİLLER</h4>
+										<ul>
+											<li><a href="#">&#128214;Türkçe</a></li>
+											<li><a href="#">&#128214;İngilizce</a></li>
+											<li><a href="#">&#128214;Almanca</a></li>
+										</ul>
+									</div>
+									<div class="list-item">
+										<h4 class="titlee">DİNLER</h4>
+										<ul>
+											<li><a href="#">&#128214;İslam</a></li>
+											<li><a href="#">&#128214;Hıristiyanlık</a></li>
+											<li><a href="#">&#128214;Yahudilik</a></li>
+											<li><a href="#">&#128214;Hinduizm / Budizm</a></li>
+										</ul>
+										<h4 class="titlee">PSİKOLOJİ</h4>
+										<ul>
+											<li><a href="#">&#128214;Bilimsel Psikoloji</a></li>
+											<li><a href="#">&#128214;Bireysel Psikoloji</a></li>
+											<li><a href="#">&#128214;Davranışsal Psikoloji</a></li>
+											<li><a href="#">&#128214;Zihinsel Psikoloji</a></li>
+										</ul>
+									</div>
+									<div class="list-item">
+										<h4 class="titlee">BİLİM</h4>
+										<ul>
+											<li><a href="#">&#128214;Tıp</a></li>
+											<li><a href="#">&#128214;Mühendislik</a></li>
+											<li><a href="#">&#128214;Antropoloji</a></li>
+											<li><a href="#">&#128214;Tarih / Coğrafya</a></li>
+											<li><a href="#">&#128214;Felsefe</a></li>
+											<li><a href="#">&#128214;Astronomi</a></li>
+											<li><a href="#">&#128214;Matematik</a></li>
+											<li><a href="#">&#128214;Hukuk</a></li>
+											<li><a href="#">&#128214;Etnoloji</a></li>
+										</ul>
+									</div>
+									<div class="list-item">
+										<img src="kitapyeni.jpeg"
+											alt="kitap" />
+									</div>
+								</div>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">İşlemler <i class="fas fa-angle-down"></i></a>
+								<div class="sub-menu single-column-menu">
+									<ul>
+										<li><a href="#">&#x2714; Ödünç Alma / İade</a></li>
+										<li><a href="#">&#x2714; Rezervasyon</a></li>
+										<li><a href="#">&#x2714; Etkinlik Kayıt</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Seçenekler <i class="fas fa-angle-down"></i></a>
+								<div class="sub-menu single-column-menu">
+									<ul>
+										<li><a href="#">&#x2714; Giriş Yap</a></li>
+										<li><a href="#">&#x2714; Kaydol</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">İletişim</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- menu end here -->
+				<div class="header-item item-right">
+					<a href="#"><i class="fas fa-search"></i></a>
+					<a href="#"><i class="far fa-heart"></i></a>
+					<a href="#"><i class="fas fa-shopping-cart"></i></a>
+					<!-- mobile menu trigger -->
+					<div class="mobile-menu-trigger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="baslik">
+			<span class="baslik2">KÜTÜPHANE WEB SİTEMİZE HOŞGELDİNİZ.</span>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<nav>
+
+
+		<div class='time-frame'>
+			<div id='tarih-bolumu'></div>
+			<div id='saat-bolumu'></div>
+		</div>
+
+		<div class="panorama">
+		<iframe width="90%" height="500px" allowFullScreen="true" allow="accelerometer; magnetometer; gyroscope"
+			style="display:block; margin:20px auto; border:0 none; max-width:880px;border-radius:8px; position: absolute; left: 300px;top: 220px; box-shadow: 0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11),0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11);"
+			src="https://panoraven.com/en/embed/xNDGcaCaee"></iframe>
+		</div>
+
+		
+		<div class="materialContainer">
+
+
+			<div class="box">
+		 
+			   <div class="title">Giriş Yap</div>
+		 
+			   <div class="input">
+				  <label for="name">Kullanıcı Adı</label>
+				  <input type="text" name="name" id="name">
+				  <span class="spin"></span>
+			   </div>
+		 
+			   <div class="input">
+				  <label for="pass">Şifre</label>
+				  <input type="password" name="pass" id="pass">
+				  <span class="spin"></span>
+			   </div>
+		 
+			   <div class="button login">
+				  <button><span>Giriş</span> <i class="fa fa-check"></i></button>
+			   </div>
+		 
+			   <a href="" class="pass-forgot">Şifrenizi mi unuttunuz?</a>
+		 
+			</div>
+		 
+			<div class="overbox">
+			   <div class="material-button alt-2"><span class="shape"></span></div>
+		 
+			   <div class="title">Kaydol</div>
+		 
+			   <div class="input">
+				  <label for="regname">Kullanıcı Adı</label>
+				  <input type="text" name="regname" id="regname">
+				  <span class="spin"></span>
+			   </div>
+		 
+			   <div class="input">
+				  <label for="regpass">Şifre</label>
+				  <input type="password" name="regpass" id="regpass">
+				  <span class="spin"></span>
+			   </div>
+		 
+			   <div class="input">
+				  <label for="reregpass">Şifreyi Tekrarla</label>
+				  <input type="password" name="reregpass" id="reregpass">
+				  <span class="spin"></span>
+			   </div>
+		 
+			   <div class="button">
+				  <button><span>İleri</span></button>
+			   </div>
+		 
+		 
+			</div>
+		 
+		 </div>
+
+
+		
+
+
+		 <div class="cont"></div>
+      
+		 <div class="card card-draggable pink">
+		   <div class="nav">
+			 <i class="material-icons-round">
+			   NOT
+			 </i>
+			 <i class="material-icons-round">
+			   close
+			 </i>
+		   </div>
+		   <div class="title">
+			 <textarea placeholder="Title" spellcheck="false"></textarea>
+		   </div>
+		   <div class="text">
+			 <textarea placeholder="Text" class="textarea-auto" spellcheck="false"></textarea>
+		   </div>
+		 </div>
+	   
+		 <div class="card green">
+		   <div class="nav">
+			 <i class="material-icons-round">
+			   NOT
+			 </i>
+			 <i class="material-icons-round">
+			   close
+			 </i>
+		   </div>
+		   <div class="title">
+			 <textarea placeholder="Title" spellcheck="false"></textarea>
+		   </div>
+		   <div class="text">
+			 <textarea placeholder="Text" class="textarea-auto" spellcheck="false"></textarea>
+		   </div>
+		 </div>
+	   
+	   </div>
+
+	   
+
+	</nav>
+
+	<section id="slider">
+		<input type="radio" name="slider" id="s1" data-slide="1" checked>
+		<input type="radio" name="slider" id="s2" data-slide="2">
+		<input type="radio" name="slider" id="s3" data-slide="3">
+		<input type="radio" name="slider" id="s4" data-slide="4">
+		<input type="radio" name="slider" id="s5" data-slide="5">
+		<label for="s1" id="slide1">
+			<div class="zoom-container" data-slide="1">
+				<img src="kitap1.jpeg" alt="Image 1">
+			</div>
+		</label>
+		<label for="s2" id="slide2">
+			<div class="zoom-container" data-slide="2">
+				<img src="kitap2.jpg" alt="Image 2">
+			</div>
+		</label>
+		<label for="s3" id="slide3">
+			<div class="zoom-container" data-slide="3">
+				<img src="kitap3.jpg" alt="Image 3">
+			</div>
+		</label>
+		<label for="s4" id="slide4">
+			<div class="zoom-container" data-slide="4">
+				<img src="kitap4.jpg" alt="Image 4">
+			</div>
+		</label>
+		<label for="s5" id="slide5">
+			<div class="zoom-container" data-slide="5">
+				<img src="kitap5.jpg" alt="Image 5">
+			</div>
+		</label>
+
+
+	
+	</section>
+
+	<article>
+	<div class="gallery-wrapper">
+  <div class="gallery-inner">
+    <div class="gallery-img">
+      <img src="kitaplık1.jpg" alt="Kutuphane">
+	  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+    </div>
+    <div class="gallery-img">
+      <img src="kitaplık.jpg" alt="Kutuphane">
+	  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+    </div>
+    <div class="gallery-img">
+      <img src="kafeterya.jpg" alt="Kutuphane">
+	  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+    </div>
+    <div class="gallery-img">
+      <img src="kitapp.jpg" alt="Kutuphane">
+	  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+    </div>
+  </div>
+</div>
+
+<div class="square github">
+	<span></span>
+	<span></span>
+	<span></span>
+	<div class="github">
+		<h2>
+			Github
+		</h2>
+		<p>Burası projelerimizi paylaştığımız platform.</p>
+		<a href="https://github.com/login" target="_blank">kutuphane00</a>
+	</div>
+</div>
+
+<div class="social-media-btn">
+	<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+	<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+	<a href="#" class="google"><i class="fab fa-google"></i></a>
+	<a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+	<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+	<a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+</div>
+
+<div id="back-top">
+	<span class="rocket">🚀</span>
+  </div>
+  
+  <!-- Content to fill the page -->
+  <div class="roket">
+   
+</div>
+
+  
+<div class="cards">
+	<div class="flip-cards">
+	  <div class="flip-front">
+		<!-- front side of the card -->
+		<h1>Kitap</h1>
+	  </div>
+	  <div class="flip-back">
+		<!-- back side of the card -->
+		<p>
+		  En iyi dosttur kitap ...
+		</p>
+		<a href="https://onlinekitapoku.com/" target="_blank">Tıkla,Oku</a>
+	  </div>
+	</div>
+  </div>
+
+
+
+
+<script src="https://kit.fontawesome.com/sizin-id-niz-gelecek.js" crossorigin="anonymous"></script>
+
+
+<div class="kitapicerik">
+	<div class="kitapp">
+		<div class="on">
+			<div class="cover">
+					
+				<svg 
+				   id="eye-left"
+				   xmlns="http://www.w3.org/2000/svg"
+				   width="75" 
+				   height="100" 
+				   version="1.0">
+				   <path d="m 72.520861,60.915859 v 0 C 69.385207,53.011396 61.908243,46.570093 55.74346,42.387465 49.578631,38.204905 40.408101,36.818968 33.679899,37.051071 c -1.597953,0.05517 -2.931531,0.451253 -4.000736,1.188245 -0.738155,0.570053 -1.097854,1.127016 -1.079089,1.670881 0.02949,0.854739 0.93486,2.69053 2.716108,5.507379 0.805175,1.372521 1.234574,2.83577 1.288193,4.389751 0.131362,3.807345 -0.983571,6.879734 -3.344801,9.217182 -2.361227,2.337476 -5.686459,3.580206 -9.975699,3.728183 C 15.162859,62.894893 11.580282,61.559887 8.5361375,58.747669 5.4920363,55.935482 3.8975877,52.431474 3.7527937,48.235627 c -0.1769131,-5.1282 2.0835359,-9.776522 6.7813483,-13.944986 4.697855,-4.168379 11.041643,-6.390426 19.031387,-6.666142 8.662566,-0.298838 16.811229,2.201105 24.446015,7.499833 7.634738,5.298806 13.804506,13.895976 18.509317,25.791527 z" id="text2161" fill="#000" fill-opacity="1" stroke="none" stroke-width=".72233355px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
+				</svg>
+				<svg 
+				  id="eye-right"
+				  xmlns="http://www.w3.org/2000/svg"
+				  width="75" 
+				  height="100" 
+				  version="1.0">
+				  <path d="m 72.520861,60.915859 v 0 C 69.385207,53.011396 61.908243,46.570093 55.74346,42.387465 49.578631,38.204905 40.408101,36.818968 33.679899,37.051071 c -1.597953,0.05517 -2.931531,0.451253 -4.000736,1.188245 -0.738155,0.570053 -1.097854,1.127016 -1.079089,1.670881 0.02949,0.854739 0.93486,2.69053 2.716108,5.507379 0.805175,1.372521 1.234574,2.83577 1.288193,4.389751 0.131362,3.807345 -0.983571,6.879734 -3.344801,9.217182 -2.361227,2.337476 -5.686459,3.580206 -9.975699,3.728183 C 15.162859,62.894893 11.580282,61.559887 8.5361375,58.747669 5.4920363,55.935482 3.8975877,52.431474 3.7527937,48.235627 c -0.1769131,-5.1282 2.0835359,-9.776522 6.7813483,-13.944986 4.697855,-4.168379 11.041643,-6.390426 19.031387,-6.666142 8.662566,-0.298838 16.811229,2.201105 24.446015,7.499833 7.634738,5.298806 13.804506,13.895976 18.509317,25.791527 z" id="text2161" fill="#000" fill-opacity="1" stroke="none" stroke-width=".72233355px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
+				</svg>
+				
+				<p class=author>George Orwell</p>
+			</div>
+		</div>
+		<div class="left-side">
+			<h2>
+				
+			</h2>
+		</div>
+	</div>
+</div>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<input id="card-one" class="hidden" type="radio" name="ok-button" checked>
+  <input id="card-two" class="hidden" type="radio" name="ok-button">
+  <input id="card-three" class="hidden" type="radio" name="ok-button">
+
+<div class="bookicerik">
+  
+  <div class="inner inner-one">
+    <div class="kutu">
+      <div class="triangle">
+      </div>
+      <p class="number">1</p>
+			<div class="text">
+				<p class="quote">"Gençliği yetiştiriniz. Onlara ilim ve irfanın müspet fikirlerini veriniz. Geleceğin aydınlığına onlarla kavuşacaksınız."</p>
+				<p class="credit">Mustafa Kemal Atatürk</p>
+			</div>
+      <label class="buton" for="card-two">
+        <p>ileri</p>
+      </label>
+    </div>
+  </div>
+  
+  <div class="inner inner-two">
+    <div class="kutu">
+      <div class="triangle">
+      </div>
+      <p class="number">2</p>
+      <p class="quote">Tereddüt edersen bacakların seni taşımaz… “Yürüyeceğim” de bas ve yürü…</p>
+      <p class="credit">Necip Fazıl Kısakürek</p>
+      <label class="buton" for="card-three">
+        <p>ileri</p>
+      </label>
+    </div>
+  </div>
+  
+  <div class="inner inner-three">
+    <div class="kutu">
+      <div class="triangle">
+      </div>
+      <p class="number">3</p>
+      <p class="quote">Yüksek Türk; senin için yüksekliğin hududu yoktur.</p>
+      <p class="credit">Mustafa Kemal Atatürk</p>
+      <label class="buton" for="card-one">
+        <p>ileri</p>
+      </label>
+    </div>
+  </div>
+
+  
+</div>    
+	
+	<script src="https://100dayscss.com/codepen/js/jquery.min.js"></script>
+    <script src="https://codepen.io/fracturedNight/pen/exgzZg.js"></script>
+  
+
+	<div class="letter">
+		<p>Bir odada bir kitap varsa, oda doludur. Kitaplar bir gemi gibi; yeni yerler keşfetmemizi sağlar.</p>
+	  
+	  <p>Bir kitap, bir bahçe kapısıdır; onu açtığınızda dünyanın içine girersiniz.Kitaplar, rüyaları olanların gece masallarıdır.</p> <p>Okuyun, okuyun, okuyun...</p>
+     
+		<h3>[Hover Me]</h3>
+	  </div>
+
+
+
+
+
+	</article>
+
+
+	<footer class="footer">
+        <div class="bubbles">
+           <script src="/js/app.js"></script>
+        </div>
+      <div class="footer-content">
+          <div class="about-logo">
+            <img src="gsklogo.png" alt="Your Logo">
+          </div>
+          <div class="footer-section about">
+              <h1>Hakkımızda</h1>
+              <p>Kütüphanemiz 7/24 açıktır.Geniş içeriğiyle sizlere hizmet vermektedir.Her yaş grubuna hitap etmektedir. Tüm halkımızı faydalanması için kütüphanemize bekleriz.</p>
+          </div>
+          <div class="footer-section links">
+              <h1>İletişim</h1>
+			  <div>
+                <i class="fa fa-phone" ></i>
+				<p> (+90) 212 112 12 12</p>
+                <p> (+90) 555 155 15 15</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#" style="color: white;"> kutuphaneaksaray@gmail.com</a></p>
+				<p><a href="#" style="color: white;"> kutuphanemizzz@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="footer-section contact-form">
+              <h1>Bize Ulaşın</h1>
+                <form action="{{ route('contact.store') }}" method="POST">
+                    <input type="text" name="name" class="text-input contact-input" placeholder="Your Name">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your Email">
+                    <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2024 Aksaray | Created by G. Sena Karagüzel
+      </div>
+  </footer>
+  <svg style="position: fixed; top: 100vh;">
+    <defs>
+        <filter id="blob">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"/>
+        </filter>
+    </defs>
+</svg>
+
+
+	<script>
+		const menu = document.querySelector(".menu");
+		const menuMain = menu.querySelector(".menu-main");
+		const goBack = menu.querySelector(".go-back");
+		const menuTrigger = document.querySelector(".mobile-menu-trigger");
+		const closeMenu = menu.querySelector(".mobile-menu-close");
+		let subMenu;
+		menuMain.addEventListener("click", (e) => {
+			if (!menu.classList.contains("active")) {
+				return;
+			}
+			if (e.target.closest(".menu-item-has-children")) {
+				const hasChildren = e.target.closest(".menu-item-has-children");
+				showSubMenu(hasChildren);
+			}
+		});
+		goBack.addEventListener("click", () => {
+			hideSubMenu();
+		})
+		menuTrigger.addEventListener("click", () => {
+			toggleMenu();
+		})
+		closeMenu.addEventListener("click", () => {
+			toggleMenu();
+		})
+		document.querySelector(".menu-overlay").addEventListener("click", () => {
+			toggleMenu();
+		})
+		function toggleMenu() {
+			menu.classList.toggle("active");
+			document.querySelector(".menu-overlay").classList.toggle("active");
+		}
+		function showSubMenu(hasChildren) {
+			subMenu = hasChildren.querySelector(".sub-menu");
+			subMenu.classList.add("active");
+			subMenu.style.animation = "slideLeft 0.5s ease forwards";
+			const menuTitle = hasChildren.querySelector("i").parentNode.childNodes[0].textContent;
+			menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+			menu.querySelector(".mobile-menu-head").classList.add("active");
+		}
+
+		function hideSubMenu() {
+			subMenu.style.animation = "slideRight 0.5s ease forwards";
+			setTimeout(() => {
+				subMenu.classList.remove("active");
+			}, 300);
+			menu.querySelector(".current-menu-title").innerHTML = "";
+			menu.querySelector(".mobile-menu-head").classList.remove("active");
+		}
+
+		window.onresize = function () {
+			if (this.innerWidth > 991) {
+				if (menu.classList.contains("active")) {
+					toggleMenu();
+				}
+
+			}
+		}
+	</script>
+
+	<script>
+		let currentSlide = 1;
+		let isPaused = false; // Variable to check if the slideshow is paused
+
+		// Function to change the slide
+		const changeSlide = () => {
+			if (!isPaused) {
+				// Remove 'can-zoom' class from all slides
+				document.querySelectorAll('.zoom-container').forEach((container) => {
+					container.classList.remove('can-zoom');
+				});
+
+				// Set the active slide
+				const activeSlide = document.getElementById(`s${currentSlide}`);
+				activeSlide.checked = true;
+
+				// Add 'can-zoom' class to the active slide
+				const activeContainer = document.querySelector(`.zoom-container[data-slide="${currentSlide}"]`);
+				if (activeContainer) {
+					activeContainer.classList.add('can-zoom');
+				}
+
+				// Move to the next slide
+				currentSlide++;
+				if (currentSlide > 5) {
+					currentSlide = 1;
+				}
+			}
+		};
+
+		// Start the auto-scroll
+		let slideInterval = setInterval(changeSlide, 5000);
+
+		// Function to pause the auto-scroll
+		const pauseSlide = () => {
+			isPaused = true;
+		};
+
+		// Function to resume the auto-scroll
+		const resumeSlide = () => {
+			isPaused = false;
+		};
+
+		// Adding event listeners to pause and resume auto-scroll on hover
+		document.querySelectorAll('.zoom-container').forEach((container) => {
+			container.addEventListener('mouseover', () => {
+				if (!container.classList.contains('can-zoom')) {
+					return;
+				}
+				pauseSlide();
+			});
+			container.addEventListener('mouseout', () => {
+				resumeSlide();
+			});
+		});
+	</script>
+	<script>
+	const galleryStyleSheet = `
+.gallery-wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  top:150px
+}
+
+.gallery-wrapper img {
+  max-width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.gallery-wrapper .gallery-img img {
+  cursor: pointer;
+}
+
+.gallery-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.gallery-popup.active + .gallery-overlay {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  background-color: rgb(0 0 0 / 75%);
+  z-index: 5;
+  overflow: hidden;
+}
+
+.gallery-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 48px);
+  height: calc(100% - 80px);
+  padding: 0px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+  animation: showPopUp 0.45s linear;
+}
+
+.gallery-popup .close,
+.gallery-popup .next,
+.gallery-popup .prev {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-popup img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-popup .close {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  top: -40px;
+  right: 0;
+}
+
+.gallery-popup .next {
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(255 255 255 / 75%);
+}
+
+.gallery-popup .prev {
+  left: 0px;
+  right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(255 255 255 / 75%);
+}
+
+.gallery-wrapper .gallery-inner {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  z-index: 4;
+}
+
+@keyframes showPopUp {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  50% {
+    opacity: 0.5;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes imgTransitionNext {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+  
+  5% {
+    transform: translateX(95vw);
+    opacity: 0.15
+  }
+  
+  10% {
+    transform: translateX(90vw);
+    opacity: 0.1;
+  }
+  
+  15% {
+    transform: translateX(85vw)
+    opacity: 0.20
+  }
+  
+  20% {
+    transform: translateX(80vw);
+    opacity: 0.2;
+  }
+  
+  25% {
+    transform: translateX(75vw)
+    opacity: 0.20
+  }
+  
+  30% {
+    transform: translateX(70vw);
+    opacity: 0.3;
+  }
+  
+  35%{
+    transform: translateX(75vw)
+    opacity: 0.35;
+  }
+  
+  40% {
+    transform: translateX(60vw);
+    opacity: 0.4;
+  }
+  
+  45%{
+    transform: translateX(55vw)
+    opacity: 0.45;
+  }
+  
+  50% {
+    transform: translateX(50vw);
+    opacity: 0.5;
+  }
+  
+  55%{
+    transform: translateX(45vw)
+    opacity: 0.55;
+  }
+  
+  60% {
+    transform: translateX(40vw);
+    opacity: 0.6;
+  }
+  
+  65%{
+    transform: translateX(65vw)
+    opacity: 0.65;
+  }
+  
+  70% {
+    transform: translateX(30vw);
+    opacity: 0.7;
+  }
+  
+75%{
+    transform: translateX(25vw)
+    opacity: 0.75;
+  }
+  
+  80% {
+    transform: translateX(20vw);
+    opacity: 0.8;
+  }
+  
+  85%{
+    transform: translateX(15vw)
+    opacity: 0.85;
+  }
+  
+  90% {
+    transform: translateX(10vw);
+    opacity: 0.9;
+  }
+  
+  95%{
+    transform: translateX(5vw)
+    opacity: 0.95;
+  }
+  
+  100%{
+    transform: translateX(0vw);
+    opacity: 1;
+  }
+}
+
+
+@keyframes imgTransitionPrev {
+  0% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  
+  5% {
+    transform: translateX(-95vw);
+    opacity: 0.15
+  }
+  
+  10% {
+    transform: translateX(-90vw);
+    opacity: 0.1;
+  }
+  
+  15% {
+    transform: translateX(-85vw)
+    opacity: 0.20
+  }
+  
+  20% {
+    transform: translateX(-80vw);
+    opacity: 0.2;
+  }
+  
+  25% {
+    transform: translateX(-75vw)
+    opacity: 0.20
+  }
+  
+  30% {
+    transform: translateX(-70vw);
+    opacity: 0.3;
+  }
+  
+  35%{
+    transform: translateX(-75vw)
+    opacity: 0.35;
+  }
+  
+  40% {
+    transform: translateX(-60vw);
+    opacity: 0.4;
+  }
+  
+  45%{
+    transform: translateX(-55vw)
+    opacity: 0.45;
+  }
+  
+  50% {
+    transform: translateX(-50vw);
+    opacity: 0.5;
+  }
+  
+  55%{
+    transform: translateX(-45vw)
+    opacity: 0.55;
+  }
+  
+  60% {
+    transform: translateX(-40vw);
+    opacity: 0.6;
+  }
+  
+  65%{
+    transform: translateX(-65vw)
+    opacity: 0.65;
+  }
+  
+  70% {
+    transform: translateX(-30vw);
+    opacity: 0.7;
+  }
+  
+75%{
+    transform: translateX(-25vw)
+    opacity: 0.75;
+  }
+  
+  80% {
+    transform: translateX(-20vw);
+    opacity: 0.8;
+  }
+  
+  85%{
+    transform: translateX(-15vw)
+    opacity: 0.85;
+  }
+  
+  90% {
+    transform: translateX(-10vw);
+    opacity: 0.9;
+  }
+  
+  95%{
+    transform: translateX(-5vw)
+    opacity: 0.95;
+  }
+  
+  100%{
+    transform: translateX(0vw);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .gallery-wrapper .gallery-inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery-wrapper .gallery-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-popup .next {
+    right: 0px;
+  }
+  .gallery-popup .prev {
+    left: 0px;
+  }
+  
+  .gallery-popup {
+    top: 60px !important;
+    left: 50% !important;
+    transform: translate(-50%, 0%);
+    height: calc(350px - 60px)
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery-wrapper .gallery-inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+`;
+
+const body = document.querySelector("body");
+const galleryWrapper = document.querySelector(".gallery-wrapper");
+
+const styeElement = document.createElement("style");
+styeElement.innerHTML = galleryStyleSheet;
+styeElement.style.display = "none";
+body.append(styeElement);
+
+const galleryPopup = document.createElement("div");
+galleryPopup.className = "gallery-popup";
+
+galleryPopup.innerHTML = `
+    <button class="close">&times;</button>
+    <span class="next">&#187;</span>
+    <span class="prev">&#171;</span>
+    <img src="" alt="">
+`;
+
+const galleryOverlay = document.createElement("div");
+galleryOverlay.className = "gallery-overlay";
+body.prepend(galleryOverlay);
+body.prepend(galleryPopup);
+
+const images = [...galleryWrapper.querySelectorAll(".gallery-img img")];
+const closeBtn = galleryPopup.querySelector(".close");
+const nextBtn = galleryPopup.querySelector(".next");
+const prevBtn = galleryPopup.querySelector(".prev");
+
+nextBtn.addEventListener("click", nextImg);
+prevBtn.addEventListener("click", prevImg);
+
+// Creating Animation For Image Transition
+const imgTransitionNext = `animation: imgTransitionNext 0.45s linear`;
+const imgTransitionPrev = `animation: imgTransitionPrev 0.45s linear`;
+let showImg = galleryPopup.querySelector(".gallery-popup img");
+
+let selectedImg = null;
+let startCount = 0;
+let endCount = images.length - 1;
+
+closeBtn.addEventListener("click", (e) => {
+  galleryPopup.style.display = "none";
+  galleryPopup.classList.remove("active");
+  selectedImg === null;
+  startCount = 0;
+  endCount = images.length - 1;
+  body.style.overflow = "auto";
+});
+
+// Click Next Button Function
+function nextImg() {
+  if (selectedImg < 0) return;
+  if (selectedImg === endCount) {
+    selectedImg = startCount;
+  } else {
+    selectedImg++;
+  }
+  showImg.src = images[selectedImg].src;
+  addRemoveAnimationNext();
+}
+
+// Click Prev Button Function
+function prevImg() {
+  if (selectedImg < 0) return;
+  if (selectedImg === startCount) {
+    selectedImg = endCount;
+  } else {
+    selectedImg--;
+  }
+  showImg.src = images[selectedImg].src;
+  addRemoveAnimationPrev();
+}
+
+// Initial Click Handler
+images.forEach((img, index) => {
+  img.addEventListener("click", (e) => {
+    galleryPopup.style.display = "block";
+    galleryPopup.classList.add("active");
+    showImg.src = e.currentTarget.src;
+    selectedImg = index;
+    body.style.overflow = "hidden";
+  });
+});
+
+// Function for add and Remove Style Attribute
+function addRemoveAnimationNext() {
+  showImg.setAttribute("style", imgTransitionNext);
+  setTimeout(() => {
+    showImg.setAttribute("style", "");
+  }, 500);
+}
+
+function addRemoveAnimationPrev() {
+  showImg.setAttribute("style", imgTransitionPrev);
+  setTimeout(() => {
+    showImg.setAttribute("style", "");
+  }, 500);
+}
+	</script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+<script type="text/javascript">
+	$(window).load(function(){
+		$(document).ready(function() {
+			var interval = setInterval(function() {
+				var momentNow = moment();
+				$('#tarih-bolumu').html(momentNow.format('DD.MM.YYYY'));
+				$('#saat-bolumu').html(momentNow.format('hh:mm:ss'));
+			}, 100);
+		});
+	});
+</script>
+
+<script>
+	var btn = $("#back-top");
+      
+      $(window).scroll(function () {
+        $(this).scrollTop() > 100 ? btn.fadeIn() : btn.fadeOut();
+      });
+      
+      btn.click(function () {
+        $("body,html").animate({
+            scrollTop: 0
+          }, 1000);
+        $(".rocket").addClass("fly");
+      
+        setTimeout(function () {
+          $(".rocket").removeClass("fly");
+        }, 1000);
+      
+        return false;
+      });
+      
+      
+      const funs = new Funs();
+      funs.signature();
+      
+</script>
+
+<script>
+	$(function() {
+
+$(".input input").focus(function() {
+
+$(this).parent(".input").each(function() {
+  $("label", this).css({
+	 "line-height": "18px",
+	 "font-size": "18px",
+	 "font-weight": "100",
+	 "top": "0px"
+  })
+  $(".spin", this).css({
+	 "width": "100%"
+  })
+});
+}).blur(function() {
+$(".spin").css({
+  "width": "0px"
+})
+if ($(this).val() == "") {
+  $(this).parent(".input").each(function() {
+	 $("label", this).css({
+		"line-height": "60px",
+		"font-size": "24px",
+		"font-weight": "300",
+		"top": "10px"
+	 })
+  });
+
+}
+});
+
+$(".button").click(function(e) {
+var pX = e.pageX,
+  pY = e.pageY,
+  oX = parseInt($(this).offset().left),
+  oY = parseInt($(this).offset().top);
+
+$(this).append('<span class="click-efect x-' + oX + ' y-' + oY + '" style="margin-left:' + (pX - oX) + 'px;margin-top:' + (pY - oY) + 'px;"></span>')
+$('.x-' + oX + '.y-' + oY + '').animate({
+  "width": "500px",
+  "height": "500px",
+  "top": "-250px",
+  "left": "-250px",
+
+}, 600);
+$("button", this).addClass('active');
+})
+
+$(".alt-2").click(function() {
+if (!$(this).hasClass('material-button')) {
+  $(".shape").css({
+	 "width": "100%",
+	 "height": "100%",
+	 "transform": "rotate(0deg)"
+  })
+
+  setTimeout(function() {
+	 $(".overbox").css({
+		"overflow": "initial"
+	 })
+  }, 600)
+
+  $(this).animate({
+	 "width": "140px",
+	 "height": "140px"
+  }, 500, function() {
+	 $(".box").removeClass("back");
+
+	 $(this).removeClass('active')
+  });
+
+  $(".overbox .title").fadeOut(300);
+  $(".overbox .input").fadeOut(300);
+  $(".overbox .button").fadeOut(300);
+
+  $(".alt-2").addClass('material-buton');
+}
+
+})
+
+$(".material-button").click(function() {
+
+if ($(this).hasClass('material-button')) {
+  setTimeout(function() {
+	 $(".overbox").css({
+		"overflow": "hidden"
+	 })
+	 $(".box").addClass("back");
+  }, 200)
+  $(this).addClass('active').animate({
+	 "width": "700px",
+	 "height": "700px"
+  });
+
+  setTimeout(function() {
+	 $(".shape").css({
+		"width": "50%",
+		"height": "50%",
+		"transform": "rotate(45deg)"
+	 })
+
+	 $(".overbox .title").fadeIn(300);
+	 $(".overbox .input").fadeIn(300);
+	 $(".overbox .button").fadeIn(300);
+  }, 700)
+
+  $(this).removeClass('material-button');
+
+}
+
+if ($(".alt-2").hasClass('material-buton')) {
+  $(".alt-2").removeClass('material-buton');
+  $(".alt-2").addClass('material-button');
+}
+
+});
+
+});
+ </script>
+
+<script>
+	function resize (textarea) {
+textarea.style.height = 'auto';
+textarea.style.height = textarea.scrollHeight+'px';
+}
+
+let textareas = document.querySelectorAll('.textarea-auto');
+textareas.forEach(el => {
+el.addEventListener('input', () => {
+resize(el);
+});
+})
+  </script>
+
+  <script>
+	 // Get the bubbles container
+const bubblesContainer = document.querySelector('.bubbles');
+
+// Create bubbles
+for (let i = 0; i < 128; i++) {
+  const bubble = document.createElement('div');
+  bubble.classList.add('bubble');
+  bubble.style.setProperty('--size', `${2 + Math.random() * 4}rem`);
+  bubble.style.setProperty('--distance', `${6 + Math.random() * 4}rem`);
+  bubble.style.setProperty('--position', `${-5 + Math.random() * 110}%`);
+  bubble.style.setProperty('--time', `${2 + Math.random() * 2}s`);
+  bubble.style.setProperty('--delay', `${-1 * (2 + Math.random() * 2)}s`);
+  bubblesContainer.appendChild(bubble);
+}
+
+  </script>
+</body>
+</html>
